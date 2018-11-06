@@ -5,3 +5,5 @@ python:
 
 script:
   - make
+after_success:
+  - coveralls
