@@ -37,7 +37,7 @@ def main():
         elif result < 0:
            cprint(result, 'red', attrs=['bold'])
         else:
-           cprint(result, 'blue')
+           cprint(result, 'yellow', 'on_blue')
         #print("Result: ", result)
 
 if __name__ == '__main__':
