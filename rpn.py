@@ -8,7 +8,7 @@ operators = {
     '-': operator.sub,
     '*': operator.mul,
     '/': operator.truediv,
-    '//': operator.floor_div,
+    '//': operator.floordiv,
     '%': operator.mod,
 }
 
@@ -37,3 +37,7 @@ def main():
 if __name__ == '__main__':
     main()
 
+def new_func():
+  x = 1
+  y = x * x
+  return "how did you get here?"
